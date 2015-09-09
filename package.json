@@ -1,6 +1,6 @@
 {
   "name": "generator-react-component-gen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "react 组件脚手架",
   "homepage": "https://github.com/NatureFeng/generator-react-component-gen",
   "author": "NatureFeng <ftrsicun@gmail.com> (naturefeng.github.io)",

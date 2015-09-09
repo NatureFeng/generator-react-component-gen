@@ -51,6 +51,8 @@ module.exports = function(appname, type) {
       ctx.template('server.js', 'server.js');
       ctx.template('index.html', 'index.html');
       ctx.template('LICENSE', 'LICENSE');
+      ctx.template('.babelrc', '.babelrc');
+      ctx.template('.eslintrc', '.eslintrc');
       ctx.template('webpack.config.js', 'webpack.config.js');
       done();
     };
