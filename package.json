@@ -1,0 +1,14 @@
+{
+  "name": "generator-react-component",
+  "version": "0.0.1",
+  "description": "react 组件脚手架",
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.20.1"
+  }
+}
