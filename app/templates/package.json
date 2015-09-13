@@ -1,7 +1,7 @@
 {
   "name": "<%= componentName %>",
   "version": "<%= version %>",
-  "description": "<%= componentName %>",
+  "description": "<%= description %>",
   "main": "src/index.js",
   "scripts": {
     "start": "node server.js",
