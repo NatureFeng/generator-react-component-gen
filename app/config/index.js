@@ -53,6 +53,7 @@ module.exports = function(appname, type) {
       ctx.template('LICENSE', 'LICENSE');
       ctx.template('.babelrc', '.babelrc');
       ctx.template('.eslintrc', '.eslintrc');
+      ctx.template('.gitignore', '.gitignore');
       ctx.template('webpack.config.js', 'webpack.config.js');
       done();
     };
