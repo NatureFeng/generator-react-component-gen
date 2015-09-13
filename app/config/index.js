@@ -5,7 +5,7 @@ module.exports = function(appname, type) {
     {
       type: 'input',
       name: 'componentName',
-      message: 'component name',
+      message: '组件名称',
       default: appname.split(' ').join('-')
     },
     {
