@@ -40,13 +40,13 @@ module.exports = function(appname, type) {
           ctx.directory(val, val);
         });
         ctx.template('package.json', 'package.json', data);
+        ctx.template('gitignore', '.gitignore');
         [
           'server.js',
           'index.html',
           'LICENSE',
           '.babelrc',
           '.eslintrc',
-          '.gitignore',
           'webpack.config.js'
         ].forEach(function(name) {
           ctx.template(name, name);
